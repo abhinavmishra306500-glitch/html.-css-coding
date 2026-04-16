@@ -1,0 +1,16 @@
+button class ="Tweet-button">Tweet</button>
+
+<style>
+    .Tweet-button{
+        background-color:rgb(37, 162, 220);
+        border:none;
+        color:white;
+        height:33px;
+        width:90px;
+        border-radius:30px;
+        font-size:15px;
+        font-weight:bold;
+        cursor:pointer;
+        
+    }
+</style>
