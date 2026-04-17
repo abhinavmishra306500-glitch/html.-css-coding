@@ -1,0 +1,20 @@
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<style>
+.subscribe-button{
+    background-color: rgb(193, 9, 9);
+    height: 33px;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+.subscribe-button:hover{
+    opacity:0.8;
+
+}
+.subscibe-button:active{
+    opacity:0.5;
+}
