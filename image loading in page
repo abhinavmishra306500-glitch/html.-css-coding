@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buttons UI</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* IMAGE STYLE */
+        .thumbnail{
+            width: 300px;
+            border-radius: 10px;
+            margin: 20px 10px;
+            display: block;
+        }
+
+        .subscribe-button{
+            background-color: rgb(193, 9, 9);
+            height: 33px;
+            width: 100px;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            padding-left: 12px;
+            padding-right: 18px;
+            padding-top: 10px;
+            padding-bottom: 14px;
+            margin-right: 8px;
+            margin-left: 10px;
+            transition: background-color 0.15s;
+        }
+
+        .subscribe-button:hover{
+            opacity: 0.5;
+            box-shadow: 5px 5px 2px black;
+        }
+
+        .subscribe-button:active{
+            opacity: 0.5;
+        }
+
+        .join-button{
+            background-color: white;
+            color: rgb(6, 95, 212);
+            height: 33px;
+            width: 80px;
+            border: 1px solid rgb(6, 95, 212);
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .join-button:hover{
+            background-color: blue;
+            color: white;
+        }
+
+        .join-button:active{
+            opacity: 0.5;
+        }
+
+        .tweet-button{
+            background-color: rgb(37, 162, 220);
+            border: none;
+            color: white;
+            height: 33px;
+            width: 90px;
+            border-radius: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .tweet-button:hover{
+            opacity: 0.5;
+        }
+
+        .video-title{
+            font-size: 20px;
+            font-weight: 600;
+            width: 300px;
+            line-height: 24px;
+            margin-bottom: 0;
+        }
+
+        .video-stats{
+            margin-top: 20px;
+        }
+
+        .apple-text{
+            margin-bottom: 50px;
+            font-size: 20px;
+            color: white;
+            background-color: red;
+            padding: 18px 0;
+            margin-top: 70px;
+        }
+
+        .span-example{
+            color: yellow;
+            cursor: pointer;
+        }
+
+        .span-example:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- IMAGE -->
+    <img class="thumbnail" src="https://picsum.photos/300/180" alt="thumbnail">
+
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+
+    <p class="video-title">
+        Abhinav Mishra is going to be in 2nd last year of uni!
+    </p>
+
+    <p class="video-stats">
+        3.4M views &#xb7; 6 months ago
+    </p>
+
+    <p class="apple-text">
+        join courses early, before 
+        u miss the registration process.
+        <span class="span-example">register now</span>
+    </p>
+
+</body>
+</html>
