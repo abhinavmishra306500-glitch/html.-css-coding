@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <title>youtube.clone.com</title>
+    <head>
+
+        <style>
+       .thumbnail{
+    width:600px;
+    height:300px;
+    object-fit:contain;
+    object-position:left;
+    object-position:bottom;
+       }
+        </style>
+    </head>
+    <body>
+        
+        <img class ="thumbnail"src="thumbnails/thumbnail-1.webp">
+        <input class=" search bar"type="text" placeholder="Search">
+    </body>
+</html>
