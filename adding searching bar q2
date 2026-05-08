@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Streak Search Bar</title>
+
+<style>
+    body{
+        background:#111;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        font-family:Arial;
+    }
+
+    .search-box{
+        width:300px;
+        background:#1e1e1e;
+        padding:12px 18px;
+        border-radius:12px;
+        display:flex;
+        align-items:center;
+        gap:10px;
+        border:1px solid #333;
+    }
+
+    .search-box input{
+        width:100%;
+        background:transparent;
+        border:none;
+        outline:none;
+        color:white;
+        font-size:16px;
+    }
+
+    .search-box input::placeholder{
+        color:#888;
+    }
+
+    .icon{
+        color:#00ff88;
+        font-size:18px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="search-box">
+    <span class="icon">🔍</span>
+    <input type="text" placeholder="Search streak...">
+</div>
+
+</body>
+</html>
