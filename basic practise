@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial;
+}
+
+.box{
+    background:#222;
+    color:white;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    width:180px;
+}
+
+.bar{
+    background:#444;
+    height:10px;
+    border-radius:10px;
+    margin-top:10px;
+    overflow:hidden;
+}
+
+.fill{
+    background:#00ff88;
+    width:60%;
+    height:100%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h2>🔥 14 Days</h2>
+    <p>Workout Streak</p>
+
+    <div class="bar">
+        <div class="fill"></div>
+    </div>
+</div>
+
+</body>
+</html>
