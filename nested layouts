@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>youtube.clone.com</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            padding-left: 20px;
+        }
+
+        .search-bar{
+            display: block;
+            margin-bottom: 25px;
+            padding: 10px;
+            width: 400px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid gray;
+        }
+
+        .video-preview{
+            width: 500px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 20px;
+        }
+
+        .thumbnail{
+            width: 500px;
+            height: 280px;
+            display: block;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .video-info-grid{
+            margin-top: 12px;
+        }
+
+        .channel-picture{
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+        }
+
+        .profile-picture{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+
+        .video-info{
+            display: inline-block;
+            width: 430px;
+        }
+
+        .video-title{
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 10px;
+            line-height: 28px;
+        }
+
+        .channel-name{
+            color: rgb(96, 96, 96);
+            margin-bottom: 5px;
+        }
+
+        .video-stats{
+            color: rgb(96, 96, 96);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <!-- FIRST VIDEO -->
+
+    <div class="video-preview">
+
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+
+        <div class="video-info-grid">
+
+            <div class="channel-picture">
+                <img class="profile-picture" src="thumbnails/img-1.jpg">
+            </div>
+
+            <div class="video-info">
+
+                <p class="video-title">
+                    HTML & CSS Full Course - Beginner to Pro
+                </p>
+
+                <p class="channel-name">
+                    SuperSimpleDev
+                </p>
+
+                <p class="video-stats">
+                    18M views · 4 years ago
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SECOND VIDEO -->
+
+    <div class="video-preview">
+
+        <img class="thumbnail" src="thumbnails/thumbnail-2.avif">
+
+        <div class="video-info-grid">
+
+            <div class="channel-picture">
+                <img class="profile-picture" src="thumbnails/img-1.jpg">
+            </div>
+
+            <div class="video-info">
+
+                <p class="video-title">
+                    REVIEWING BEST AI VIDEOS
+                </p>
+
+                <p class="channel-name">
+                    Tanmay Bhat
+                </p>
+
+                <p class="video-stats">
+                    1.9M views · 4 days ago
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
