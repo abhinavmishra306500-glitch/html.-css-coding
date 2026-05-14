@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Streak</title>
+
+    <style>
+
+        .streak-box{
+            width: 120px;
+            padding: 15px;
+            background-color: orange;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 12px;
+            text-align: center;
+            font-family: Arial;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="streak-box">
+        🔥 7 Day Streak
+    </div>
+
+</body>
+
+</html>
